@@ -136,7 +136,7 @@ nav a {
             "navAcademia navAcademia navAcademia navAcademia"
             "mainAcademia mainAcademia mainAcademia asideAcademia"
             "mainAcademia mainAcademia mainAcademia asideAcademia"
-            "footerAcademia footerAcademia footerAcademia footerAcademia";
+            "footerAcademia footerAcademia footerAcademia footerAcademia";}
     }
 
     .asideAcademia {
@@ -158,42 +158,10 @@ nav a {
     }
 
 
-}
 
 
-
-
-/* index2 */
-
-.grillaIndex {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
-    grid-template-areas:
-        "navIndex navIndex navIndex navIndex"
-        "mainIndex mainIndex mainIndex mainIndex"
-        "mainIndex mainIndex mainIndex mainIndex"
-        "asideIndex asideIndex asideIndex asideIndex"
-        "footerIndex footerIndex footerIndex footerIndex";
-}
-
-
-
-.navIndex ul {
-    display: flex;
-}
-
-.navIndex li {
-    margin-right: 30px;
-}
-
-/* main */
-.mainIndex {
-    grid-area: mainIndex;
-
-}
-
-.mainIndex h1 {
+       /*index*/
+ .mainIndex h1{
     max-width: 3000px;
     color: black;
     font-size: 66px;
@@ -202,8 +170,7 @@ nav a {
 }
 
 .imgIndex2 {
-    max-width: 100%;
-    margin: 20px 0px;
+    
     width: 100%;
     height: 100%;
 }
@@ -224,42 +191,29 @@ nav a {
 }
 
 
-/* aside */
 
-.asideIndex {
-    grid-area: asideIndex;
-    /* margin: 44px 221px -36px 221px; */
-    border: solid 1px black;
-    text-align: center;
-}
+
+
 
 /* footer */
 .footerIndex {
-    grid-area: footerIndex;
     display: flex;
     background-color: black;
     color: white;
-    justify-content: space-evenly;
-    /* margin: 75px 0px 0px 0px; */
+    justify-content: space-around
+
 }
 
 
 @media(max-width:480px) {
 
-    .grillaIndex {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    
-        grid-template-areas:
-            "navIndex navIndex navIndex navIndex"
-            "mainIndex mainIndex mainIndex mainIndex"
-            "mainIndex mainIndex mainIndex mainIndex"
-            "asideIndex asideIndex asideIndex asideIndex"
-            "footerIndex footerIndex footerIndex footerIndex";
+    .footerIndex{ width: 100%;
+    max-width: 100%;
+background-color: white;
+color: black;
     }
 
-
-}
+    }
 
 
 
@@ -378,7 +332,7 @@ nav a {
   
   .navIndex { grid-area: navIndex; }
   
-  .footerIndex { grid-area: footerIndex; }
+  
   
   .main { grid-area: main; }
 
