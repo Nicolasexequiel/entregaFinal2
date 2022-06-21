@@ -177,14 +177,7 @@ nav a {
         "footerIndex footerIndex footerIndex footerIndex";
 }
 
-.navIndex {
-    grid-area: navIndex;
-    display: flex;
-    background-color: black;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
+
 
 .navIndex ul {
     display: flex;
@@ -393,7 +386,7 @@ nav a {
     text-align: center;
 }
   
-f
+
 @media(max-width:480px) {
 .main{
     background-color: black;
