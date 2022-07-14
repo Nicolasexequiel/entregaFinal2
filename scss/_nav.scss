@@ -31,3 +31,12 @@ nav a {
 .navIndex {
     grid-area: navIndex;
 }
+.navm{
+    color: red;
+    width: 100%;
+    display: flex;
+    grid-area: nav;
+    background-color:  black;
+    justify-content: space-evenly;
+    max-width: none;
+}

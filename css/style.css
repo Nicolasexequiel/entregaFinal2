@@ -2,7 +2,7 @@
   padding: 0%;
   margin: 0%; }
 
-.mainAcademia h1, .tituloHistoria, .tituloContacto,  {
+.mainAcademia h1, .tituloHistoria, .tituloContacto, .tituloHorario {
   max-width: 3000px;
   color: black;
   font-size: 66px;
@@ -13,7 +13,10 @@
   width: 100%;
   background-color: black;
   display: inline-block;
-  }
+  margin: 0px 210px 10px 0px;
+  clear: both;
+  content: '';
+  display: table; }
   .header .ul {
     display: flex;
     list-style: none;
@@ -55,6 +58,15 @@ nav a {
 .navIndex {
   grid-area: navIndex; }
 
+.navm {
+  color: red;
+  width: 100%;
+  display: flex;
+  grid-area: nav;
+  background-color: black;
+  justify-content: space-evenly;
+  max-width: none; }
+
 /* main  */
 .mainAcademia {
   grid-area: mainAcademia;
@@ -74,7 +86,7 @@ nav a {
   font-size: 2rem;
   outline: none;
   border: 3px solid black;
-  margin: 4px 0px 36px 0px; }
+  margin: 80px 0px 44px 0px; }
   .buttonAcademia:hover {
     color: rgba(206, 175, 175, 0.822);
     cursor: pointer; }
@@ -87,13 +99,11 @@ nav a {
   text-align: center;
   color: red;
   background-color: white;
-  color: black;
-  
-}
+  color: black; }
 
 .imgIndex2 {
   width: 100%;
-   }
+  height: 100%; }
 
 .h3Index2 {
   color: black;
@@ -133,9 +143,10 @@ nav a {
   margin: 0px 0px 0px 54px; }
 
 .imagen-historia img {
-  max-width: 300px;
+  width: 300px;
+  max-width: 288px;
   display: inline-block;
-  margin: -183px 4px 0px 775px; }
+  margin: -418px 4px 0px 775px; }
 
 .h3-historia1 {
   color: black;
@@ -153,6 +164,69 @@ nav a {
 /*contacto*/
 .main {
   grid-area: main; }
+
+.tituloHorario {
+  text-align: center;
+  margin: -418px 4px 0px 775px; }
+
+@media screen and (max-width: 768px) {
+  footer {
+    background-color: blue; }
+  .navbar-toggler {
+    color: white;
+    background-color: white; }
+  .galeria1 {
+    width: 100%;
+    max-width: 85vw;
+    height: 60vmin;
+    display: flex;
+    gap: 1.5px;
+    flex-wrap: wrap; }
+  .profes {
+    width: 100%;
+    max-width: 100vw;
+    height: 60vmin;
+    gap: -1px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center; }
+  .profes img {
+    height: 100%;
+    max-height: 60vmin;
+    flex: -1;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+    display: flex; }
+  .profes img:hover {
+    transform: scale(1.2); }
+  .separador {
+    margin: 10px;
+    padding: 10px;
+    color: black; }
+  .navm a:hover {
+    transform: scale(1.2); }
+  .direc {
+    margin: 0px 0px 0px 70px; }
+  .mensaje {
+    display: flex;
+    margin: -87px 0px 0px 597px; }
+  .aside {
+    display: flex;
+    margin: 25px 340px 26px 285px;
+    background: #421f1f;
+    color: white; }
+  .textoAcademia {
+    display: flex; }
+  .tituloHorario {
+    background-color: white;
+    margin: 0px 520px 0px 541px; }
+  .imagenFondo {
+    background-image: url(../imagenes/imagenFondo.jpeg);
+    background-size: 50%; } }
 
 /*academia*/
 /* footer */
@@ -189,129 +263,8 @@ nav a {
 .footerContacto {
   display: flex;
   background-color: black;
-  color: white;}
-
-
-
-
-#navbarNav{
-  margin-left:200px;
-}
-.navbar-nav li{
-  margin: 25px;
- 
-}
-.navbar-toggler-light{
- margin-right: -30px;
-}
-
+  color: white;
+  width: 100%; }
 
 /*academia  */
 /* nav */
-
-
-@media screen and (max-width:768px) {
-footer{
-  background-color: blue;
-
-}
-.header{
-  background-color: red;
-  display:flex;
-}
-.navbar-toggler{
-  color: white;
-  background-color: white;
-}
-  }
-
-
-
-
-
-  .navm{
-    color: white;
-    width: 100%;
-    display: flex;
-    grid-area: nav;
-    background-color:  black;
-    justify-content: space-evenly;
-    max-width: none;
-}
-  
-.galeria1 {
-  width: 100%;
-  max-width: 85vw;
-  height: 60vmin;
-  display: flex;
-  gap: 1.5px;
-  flex-wrap: wrap;
-}
-.profes{
-  
-  width: 100%;
-  max-width: 100vw;
-  height: 60vmin;
-  gap: -1px;
-  margin-right: auto;
-  margin-left: auto;
-  display: flex;
-  justify-content: center;
-}
-.profes img{
-    height: 100%;
-    max-height: 60vmin;
-    flex: -1;
-    object-fit: cover;
-    overflow: hidden;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: 0.3s;
-    display: flex;
-}
-.profes img:hover{
-  transform: scale(1.2);
-}
-.separador {
-  margin: 10px;
-  padding: 10px;
-  color: black;
-}
-
-.navm a:hover{
-  transform: scale(1.2);
-}
-
-.direc{
-  margin: 0px 0px 0px 70px;
-}
-.mensaje {
-  display: flex;
-  margin: -87px 0px 0px 597px;
-}
-
-.aside{
-  display: flex;
-  margin: 25px 340px 26px 285px;
-  background: rgb(66, 31, 31);
-  color: white;
-}
-  
-.textoAcademia{
-  display: flex;
-
-}
-
-.tituloHorario{
- 
-  background-color: white;
-  margin: 0px 520px 0px 541px ;
-  
-
-
-}
-
-.imagenFondo{
-  background-image: url(../imagenes/imagenFondo.jpeg);
-  background-size: 50%;
-}
