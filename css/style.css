@@ -2,7 +2,7 @@
   padding: 0%;
   margin: 0%; }
 
-.mainAcademia h1, .tituloHistoria, .tituloContacto, .tituloHorario {
+.mainAcademia h1, .tituloHistoria, .tituloContacto, .tituloMestres, .tituloHorario, .tituloDias {
   max-width: 3000px;
   color: black;
   font-size: 66px;
@@ -86,8 +86,7 @@ nav a {
   transition: ease-out 0.3s;
   font-size: 2rem;
   outline: none;
-  border: 3px solid black;
-  margin: 80px 0px 44px 0px; }
+  border: 3px solid black; }
   .buttonAcademia:hover {
     color: rgba(206, 175, 175, 0.822);
     cursor: pointer; }
@@ -131,103 +130,134 @@ nav a {
   background-color: white; }
 
 .section-historia2 {
-  margin-bottom: 50px; }
+  display: flex;
+  justify-content: space-around; }
 
 .sectionHistoria3 {
-  color: black; }
+  display: flex;
+  color: black;
+  justify-content: space-around;
+  flex-direction: row-reverse; }
+
+.sectionHistoria {
+  width: 546px; }
 
 .h3-historia {
   color: red;
-  background-color: white;
-  display: inline-block;
-  max-width: 500px;
-  margin: 0px 0px 0px 54px; }
+  background-color: white; }
 
 .imagen-historia img {
   width: 300px;
-  max-width: 288px;
-  display: inline-block;
-  margin: -418px 4px 0px 775px; }
+  max-width: 288px; }
 
 .h3-historia1 {
   color: black;
   background-color: white;
-  max-width: 623px;
-  margin: 11px 76px 0px 671px; }
+  max-width: 623px; }
 
 .imagen-helio {
-  margin: -309px 0px 13px 133px; }
+  width: 350px; }
 
 .mainHistoria {
   background-image: url(../imagenes/ASG-LOGO1350.jpg);
-  height: 1351px; }
+  background-size: cover; }
 
 /*contacto*/
 .main {
   grid-area: main; }
 
+.fondoContacto {
+  background-image: url(../imagenes/fondoContacto.webp);
+  color: white;
+  display: flex; }
+
+.botones {
+  display: flex;
+  width: 80%; }
+
+.mainMestres {
+  background-image: url(../imagenes/imagenfondotrama.jpeg); }
+
+.tituloMestres {
+  text-align: center;
+  color: white; }
+
 .tituloHorario {
   text-align: center;
   margin: -418px 4px 0px 775px; }
 
+/*dias y horarios*/
+.mainDias {
+  background-image: url(../imagenes/imagenFondo.jpeg); }
+
+.tituloDias {
+  text-align: center; }
+
 @media screen and (max-width: 768px) {
   footer {
-    background-color: blue; }
-  .navbar-toggler {
-    color: white;
-    background-color: white; }
-  .galeria1 {
-    width: 100%;
-    max-width: 85vw;
-    height: 60vmin;
-    display: flex;
-    gap: 1.5px;
-    flex-wrap: wrap; }
-  .profes {
-    width: 100%;
-    max-width: 100vw;
-    height: 60vmin;
-    gap: -1px;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    justify-content: center; }
-  .profes img {
-    height: 100%;
-    max-height: 60vmin;
-    flex: -1;
-    object-fit: cover;
-    overflow: hidden;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: 0.3s;
-    display: flex; }
-  .profes img:hover {
-    transform: scale(1.2); }
-  .separador {
-    margin: 10px;
-    padding: 10px;
-    color: black; }
-  .navm a:hover {
-    transform: scale(1.2); }
-  .direc {
-    margin: 0px 0px 0px 70px; }
-  .mensaje {
-    display: flex;
-    margin: -87px 0px 0px 597px; }
-  .aside {
-    display: flex;
-    margin: 25px 340px 26px 285px;
-    background: #421f1f;
-    color: white; }
-  .textoAcademia {
-    display: flex; }
-  .tituloHorario {
-    background-color: white;
-    margin: 0px 520px 0px 541px; }
-  .imagenFondo {
-    background-image: url(../imagenes/imagenFondo.jpeg);
-    background-size: 50%; } }
+    background-color: blue; } }
+
+.navbar-toggler {
+  color: white;
+  background-color: white; }
+
+.galeria1 {
+  width: 100%;
+  max-width: 85vw;
+  height: 60vmin;
+  display: flex;
+  gap: 1.5px;
+  flex-wrap: wrap; }
+
+.separador {
+  margin: 10px;
+  padding: 10px;
+  color: black; }
+
+.navm a:hover {
+  transform: scale(1.2); }
+
+.aside {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(../imagenes/fondoTurista.jpg); }
+
+.textoAcademia {
+  display: flex; }
+
+.tituloHorario {
+  background-color: white; }
+
+.dias1 {
+  text-align: center; }
+
+.imagenFondo {
+  background-image: url(../imagenes/imagenFondo.jpeg);
+  background-size: 50%; }
+
+.profes1 {
+  width: 100%;
+  max-width: 100vw;
+  height: 60vmin;
+  gap: -1px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center; }
+
+.profes1 img {
+  height: 100%;
+  max-height: 60vmin;
+  flex: -1;
+  object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: flex; }
+
+.profes1 img:hover {
+  transform: scale(1.2); }
 
 /*academia*/
 /* footer */
