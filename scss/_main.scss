@@ -149,6 +149,14 @@ display: flex;
 .botones {
     display: flex;
     width: 80%;
+    margin: 0px -143px 0px 271px;
+}
+.todoContacto{
+    display: flex;
+    text-align: center;
+    ul{
+        list-style: none;
+    }
 }
 
 
@@ -227,7 +235,13 @@ background-size: cover;
     flex-direction: column;
     margin: 0px 13px 0px 50px;;
 }
-
+/* contacto*/ 
+.botones{
+    margin: 0px 38px 0px 25px;
+}
+.itemContacto{
+ margin: 0px 77px 0px 0px;
+}
     }
 
 

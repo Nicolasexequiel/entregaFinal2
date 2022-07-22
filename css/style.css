@@ -178,7 +178,14 @@ nav a {
 
 .botones {
   display: flex;
-  width: 80%; }
+  width: 80%;
+  margin: 0px -143px 0px 271px; }
+
+.todoContacto {
+  display: flex;
+  text-align: center; }
+  .todoContacto ul {
+    list-style: none; }
 
 .mainMestres {
   background-image: url(../imagenes/imagenfondotrama.jpeg); }
@@ -231,7 +238,12 @@ nav a {
   .todoContacto {
     display: flex;
     flex-direction: column;
-    margin: 0px 13px 0px 50px; } }
+    margin: 0px 13px 0px 50px; }
+  /* contacto*/
+  .botones {
+    margin: 0px 38px 0px 25px; }
+  .itemContacto {
+    margin: 0px 77px 0px 0px; } }
 
 .navbar-toggler {
   color: white;
