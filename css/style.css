@@ -127,7 +127,8 @@ nav a {
 
 .h2-historia {
   color: black;
-  background-color: white; }
+  background-color: white;
+  margin: 0px 45px 0px 34px; }
 
 .section-historia2 {
   display: flex;
