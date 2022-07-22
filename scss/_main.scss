@@ -103,13 +103,16 @@
 .h3-historia {
     @include hola();
     background-color: white;
+    margin: 0px 162px 0px 0px;
     
 }
-
+.imagen-historia{
+    display: flex;
+}
 .imagen-historia img {
     width: 300px;
     max-width: 288px;
-}
+  }
 
 .h3-historia1 {
     @include hola;
@@ -185,11 +188,45 @@ background-size: cover;
     }
     .h3-historia {
         color: black;
+        margin: 0px 29px 0px 24px;
     }
     .section-historia2{
         display: flex;
     flex-direction: column;
 }
+.sectionHistoria3{
+    display: flex;
+    flex-direction: column;
+}
+.h3-historia1{
+    color: black;
+    margin: 0px 29px 0px 24px;
+}
+.imagen-historia{
+    display: flex;
+    flex-direction: column;
+}
+.h2-historia{
+    margin: 0px 29px 0px 24px;
+}
+.condekoma{
+ margin: auto;
+}
+/*academia*/
+.aside{
+    flex-direction: column;
+}
+
+.fondoContacto{
+    flex-direction: column;
+    margin: auto;
+}
+.todoContacto{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 13px 0px 50px;;
+}
+
     }
 
 

@@ -144,7 +144,11 @@ nav a {
 
 .h3-historia {
   color: red;
-  background-color: white; }
+  background-color: white;
+  margin: 0px 162px 0px 0px; }
+
+.imagen-historia {
+  display: flex; }
 
 .imagen-historia img {
   width: 300px;
@@ -199,10 +203,34 @@ nav a {
   footer {
     background-color: blue; }
   .h3-historia {
-    color: black; }
+    color: black;
+    margin: 0px 29px 0px 24px; }
   .section-historia2 {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .sectionHistoria3 {
+    display: flex;
+    flex-direction: column; }
+  .h3-historia1 {
+    color: black;
+    margin: 0px 29px 0px 24px; }
+  .imagen-historia {
+    display: flex;
+    flex-direction: column; }
+  .h2-historia {
+    margin: 0px 29px 0px 24px; }
+  .condekoma {
+    margin: auto; }
+  /*academia*/
+  .aside {
+    flex-direction: column; }
+  .fondoContacto {
+    flex-direction: column;
+    margin: auto; }
+  .todoContacto {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 13px 0px 50px; } }
 
 .navbar-toggler {
   color: white;
