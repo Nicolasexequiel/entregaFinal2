@@ -5,17 +5,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
     ul {
         margin-top: 30px;
         width: 100%;
         display: flex;
     }
+
     li {
         list-style: none;
         padding: 30px;
         height: 0px;
         text-align: center;
-        &:hover{
+
+        &:hover {
             background-color: rgb(18, 47, 48)
         }
     }
@@ -28,16 +31,18 @@ nav a {
 .navAcademia li:hover {
     background-color: rgb(18, 47, 48)
 }
+
 .navIndex {
     grid-area: navIndex;
     color: red;
 }
-.navm{
+
+.navm {
     color: red;
     width: 100%;
     display: flex;
     grid-area: nav;
-    background-color:  black;
+    background-color: black;
     justify-content: space-evenly;
     max-width: none;
 }

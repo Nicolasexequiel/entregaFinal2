@@ -64,9 +64,9 @@
 
 /*historia*/
 .tituloHistoria {
-    @extend %estilotitulo ; 
+    @extend %estilotitulo;
     background-color: white;
-     }
+}
 
 .h1-historia {
     color: black;
@@ -82,7 +82,7 @@
 .h2-historia {
     color: black;
     background-color: white;
-    margin:0px 45px 0px 34px;
+    margin: 0px 45px 0px 34px;
 }
 
 .section-historia2 {
@@ -105,15 +105,17 @@
     @include hola();
     background-color: white;
     margin: 0px 162px 0px 0px;
-    
+
 }
-.imagen-historia{
+
+.imagen-historia {
     display: flex;
 }
+
 .imagen-historia img {
     width: 300px;
     max-width: 288px;
-  }
+}
 
 .h3-historia1 {
     @include hola;
@@ -141,34 +143,38 @@
 .tituloContacto {
     @extend %estilotitulo;
 }
-.fondoContacto{
-background-image: url(../imagenes/fondoContacto.webp);
-color: white;
-display: flex;
+
+.fondoContacto {
+    background-image: url(../imagenes/fondoContacto.webp);
+    color: white;
+    display: flex;
 }
+
 .botones {
     display: flex;
     width: 80%;
     margin: 0px -143px 0px 271px;
 }
-.todoContacto{
+
+.todoContacto {
     display: flex;
     text-align: center;
-    ul{
+
+    ul {
         list-style: none;
     }
 }
 
 
 //mestres
-.mainMestres{
+.mainMestres {
     background-image: url(../imagenes/imagenfondotrama.jpeg);
 }
-.tituloMestres{
+
+.tituloMestres {
     @extend %estilotitulo;
     text-align: center;
     color: white
-    
 }
 
 .tituloHorario {
@@ -179,15 +185,16 @@ display: flex;
 
 }
 
-/*dias y horarios*/ 
-.mainDias{
-background-image: url(../imagenes/imagenimagneimagen.webp);
-background-size: cover;
+/*dias y horarios*/
+.mainDias {
+    background-image: url(../imagenes/imagenimagneimagen.webp);
+    background-size: cover;
 }
-.tituloDias{
+
+.tituloDias {
     text-align: center;
     @extend %estilotitulo;
-    color:white;
+    color: white;
 }
 
 @media screen and (max-width:768px) {
@@ -195,108 +202,121 @@ background-size: cover;
         background-color: blue;
 
     }
+
     .h3-historia {
         color: black;
         margin: 0px 29px 0px 24px;
     }
-    .section-historia2{
+
+    .section-historia2 {
         display: flex;
-    flex-direction: column;
-}
-.sectionHistoria3{
-    display: flex;
-    flex-direction: column;
-}
-.h3-historia1{
-    color: black;
-    margin: 0px 29px 0px 24px;
-}
-.imagen-historia{
-    display: flex;
-    flex-direction: column;
-}
-.h2-historia{
-    margin: 0px 29px 0px 24px;
-}
-.condekoma{
- margin: auto;
-}
-/*academia*/
-.aside{
-    flex-direction: column;
-}
-
-.fondoContacto{
-    flex-direction: column;
-    margin: auto;
-}
-.todoContacto{
-    display: flex;
-    flex-direction: column;
-    margin: 0px 13px 0px 50px;;
-}
-/* contacto*/ 
-.botones{
-    margin: 0px 38px 0px 25px;
-}
-.itemContacto{
- margin: 0px 77px 0px 0px;
-}
+        flex-direction: column;
     }
 
-
-
-
-    .navbar-toggler {
-        color: white;
-        background-color: white;
-    }
-
-
-
-
-
-
-
-    .galeria1 {
-        width: 100%;
-        max-width: 85vw;
-        height: 60vmin;
+    .sectionHistoria3 {
         display: flex;
-        gap: 1.5px;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
-    .separador {
-        margin: 10px;
-        padding: 10px;
+    .h3-historia1 {
         color: black;
+        margin: 0px 29px 0px 24px;
     }
 
-    .navm a:hover {
-        transform: scale(1.2);
+    .imagen-historia {
+        display: flex;
+        flex-direction: column;
     }
 
-   
+    .h2-historia {
+        margin: 0px 29px 0px 24px;
+    }
 
+    .condekoma {
+        margin: auto;
+    }
+
+    /*academia*/
     .aside {
+        flex-direction: column;
+    }
+
+    .fondoContacto {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .todoContacto {
         display: flex;
-        justify-content: space-around;
-        background-image: url(../imagenes/fondoTurista.jpg);
-    }
-        .textoAcademia {
-        display: flex;
-
+        flex-direction: column;
+        margin: 0px 13px 0px 50px;
+        ;
     }
 
-    .tituloHorario {
-
-        background-color: white;
+    /* contacto*/
+    .botones {
+        margin: 0px 38px 0px 25px;
     }
 
-    .dias1 {
-        text-align: center;
+    .itemContacto {
+        margin: 0px 77px 0px 0px;
     }
+}
+
+
+
+
+.navbar-toggler {
+    color: white;
+    background-color: white;
+}
+
+
+
+
+
+
+
+.galeria1 {
+    width: 100%;
+    max-width: 85vw;
+    height: 60vmin;
+    display: flex;
+    gap: 1.5px;
+    flex-wrap: wrap;
+}
+
+.separador {
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+
+.navm a:hover {
+    transform: scale(1.2);
+}
+
+
+
+.aside {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../imagenes/fondoTurista.jpg);
+}
+
+.textoAcademia {
+    display: flex;
+
+}
+
+.tituloHorario {
+
+    background-color: white;
+}
+
+.dias1 {
+    text-align: center;
+}
 
 
 .imagenFondo {
